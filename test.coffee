@@ -83,6 +83,8 @@ validateAddress('Boston, MA', validator.match.unknown)
 validateAddress('Boston, MA, USA', validator.match.unknown)
 validateAddress('MA', validator.match.unknown)
 validateAddress('Sibirskaya 22, Novosibirks, Russia', validator.match.unknown)
+validateAddress('115 Mercury House Willoughton Drive Gainsborough DN21 3DF, UK', validator.match.unknown)
+
 
 ## now lets mix it up by giving the validator info about the type of an address we asked to validate:
 validateAddress(address1, validator.match.streetAddress)
