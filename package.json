@@ -1,6 +1,6 @@
 {
   "name": "@debitoor/address-validator",
-  "version": "0.1.4",
+  "version": "1.0.0",
   "description": "Validate street addresses via google's geocoding API. Get back valid addresses with lat/lon coords and a set of inexact matches",
   "keywords": [
     "address",
