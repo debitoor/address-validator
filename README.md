@@ -1,4 +1,4 @@
-address-validator
+@debitoor/address-validator
 ======================
 
 
@@ -14,10 +14,8 @@ Currently geared towards North American Addresses but works with all languages.
 Install
 -------
 ``` bash
-npm install address-validator
+npm install @debitoor/address-validator
 ```
-
-[on npm registry](https://npmjs.org/package/address-validator)
 
 Usage
 -----

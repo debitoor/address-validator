@@ -1,5 +1,5 @@
 {
-  "name": "address-validator",
+  "name": "@debitoor/address-validator",
   "version": "0.1.4",
   "description": "Validate street addresses via google's geocoding API. Get back valid addresses with lat/lon coords and a set of inexact matches",
   "keywords": [
@@ -11,16 +11,18 @@
     "google maps"
   ],
   "scripts": {
+    "postversion": "git push && git push --tags",
+    "preversion": "npm test",
     "test": "coffee test.coffee"
   },
-  "homepage": "https://github.com/mkoryak/address-validator",
+  "homepage": "https://github.com/debitoor/address-validator",
   "author": {
     "name": "Misha Koryak",
     "url": "http://www.programmingdrunk.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mkoryak/address-validator.git"
+    "url": "git://github.com/debitoor/address-validator.git"
   },
   "dependencies": {
     "coffee-script": "~1.9.2",
