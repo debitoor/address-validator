@@ -142,6 +142,7 @@ exports.Address = class Address
 					[streetAbbr, street] = getComponent('route', false)
 					[x, city] = getComponent('locality')
 					[stateAbbr, state] = getComponent('administrative_area_level_1')
+					[regionAbbr, region] = getComponent('administrative_area_level_2')
 					[countryAbbr, country] = getComponent('country')
 					[postalCode, x] = getComponent('postal_code', false)
 					address =
@@ -149,6 +150,8 @@ exports.Address = class Address
 						street: street
 						streetAbbr: streetAbbr
 						city: city
+						region: region
+						regionAbbr: regionAbbr
 						state: state
 						stateAbbr: stateAbbr
 						country: country
